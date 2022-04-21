@@ -10,7 +10,7 @@
 - requests
 
 ### Windows installation:
-
+0. Install git on your pc: https://git-scm.com/downloads
 1. [Download Python](https://www.microsoft.com/en-us/p/python-37/9nj46sx7x90p?activetab=pivot:overviewtab)
 2. Install pip by running this commands:
 ```
