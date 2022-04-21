@@ -1,6 +1,7 @@
 
 # 5m-server-creator (python 3.7.9)
-## Preview: 
+## Preview: https://youtu.be/PhzwK4rsikg
+
 ## Script create FXServer directory and downloads latest artifacts for specified OS (windows or linux), then clones official fivem cfx-server-data repo and creates server.cfg with changed license key and steam web api key provided by user.
 
 ## Build with:
