@@ -79,8 +79,6 @@ def linux(lickey, steamapi):
         output_file.write(req.content)
     print('\nDownloading Completed')
     #extracting files from fx.tar.xz
-    #with py7zr.SevenZipFile(f"/home/ubuntu/FXServer/server/fx.tar.xz", 'r') as archive:
-    #    archive.extractall(path=f"/home/ubuntu/FXServer/server")
     os.system("cd /home/ubuntu/FXServer/server/ && tar xf fx.tar.xz")
     #deleting fx.tar.xz after extraction
     os.remove("/home/ubuntu/FXServer/server/fx.tar.xz")
