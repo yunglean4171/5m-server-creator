@@ -108,5 +108,3 @@ def linux(lickey, steamapi):
 
 if __name__ == "__main__":
     main()
-
-
