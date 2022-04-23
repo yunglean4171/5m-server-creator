@@ -22,7 +22,7 @@ def main():
 
 def windows(lickey, steamapi):
     file_path = os.path.abspath(os.path.dirname(__file__))
-    #getting latest recommended build for windows
+    #getting latest recommended build for linux
     URL = 'https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/'
     soup = BeautifulSoup(requests.get(URL).content, "html.parser")
     relative_path = soup.find_all("div", {"class": "panel-block"})[0].next_element.next_element['href']
