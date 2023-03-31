@@ -96,6 +96,7 @@ def linux(lickey, steamapi):
         file.write(content)
 
     print("\nprocess completed, you're good to go ;D")
+                              
 if name == "main":
     main()
                               
